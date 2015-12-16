@@ -1,0 +1,23 @@
+<?php
+/**
+* @file 
+* a block module that displays recent blogs and forum posts
+*/
+
+/**
+*
+* Displays help info for our mod
+*
+* @param path
+*	which path of the site we are using
+*
+* @param arg
+*	array that holds the curent path as returned from arg() function
+*/
+function current_posts_help($path, $arg){
+	switch($path){
+		case "admin/help#current_posts":
+		return '<p>'.t("Displays links to nodes created on this date").'</p>';
+		break;
+	}
+}

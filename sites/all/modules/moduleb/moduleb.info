@@ -1,0 +1,6 @@
+name = Module B
+description = Second Example Module
+package = Clairs Example Mods
+core = 7.x
+
+files[] = moduleb.module

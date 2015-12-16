@@ -1,0 +1,7 @@
+<?php
+
+function moduleb_helloworld(){
+	// echo "<p>Our friends at ".__FUNCTION__." want to say Hello World</p>";
+	//return "<p>Our friends at ".__FUNCTION__." want to say Hello World</p>";
+	return array('function'=>__FUNCTION__);
+}

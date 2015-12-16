@@ -1,0 +1,15 @@
+
+<?php
+function modulea_helloworld() {
+	// echo "<p>Our friends at ".__FUNCTION__." want to say Hello World</p>";
+	//return "<p>Our friends at ".__FUNCTION__." want to say Hello World</p>";
+	//return array("one", "two", "three");
+	return array("foo"=>"one","baz"=>"two","bar"=>"three","function"=>__FUNCTION__);
+}
+
+// function modulea_helloworld($param1, $param2, $param3) {
+// 	$param1 = "one";
+// 	$param2 = "two";
+// 	$param3 = "three";
+// 	return array('joined'=>implode('##', array($param1, $param2, $param3)));
+// }

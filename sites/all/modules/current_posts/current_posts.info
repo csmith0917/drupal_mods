@@ -1,3 +1,5 @@
 name = Current Posts
 description = custom list of current posts
 core = 7.x
+
+configure = admin/config/content/current_posts
